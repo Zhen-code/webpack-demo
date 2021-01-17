@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19234061",
+      "name": "柠檬-01",
+      "font_class": "ningmeng-01",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "19234519",
+      "name": "山竹-10",
+      "font_class": "shanzhu-10",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "19234901",
+      "name": "角瓜-19",
+      "font_class": "jiaogua-19",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}
