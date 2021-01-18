@@ -13,6 +13,7 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "autoprefixer": "^10.2.1",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "core-js": "^3.8.2",
     "css-loader": "^5.0.1",
@@ -52,8 +53,12 @@
     ]
   },
   "dependencies": {
+    "jquery": "^3.5.1",
     "koa": "^2.13.1",
     "koa-static": "^5.0.0"
   },
-  "sideEffects": ["*.css","*.less"]
+  "sideEffects": [
+    "*.css",
+    "*.less"
+  ]
 }

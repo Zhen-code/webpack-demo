@@ -1,13 +1,13 @@
 import './src/font/iconfont.css';
 import './src/css/index.css'; // eslint-disable-next-line
-import print from "./src/js/print";
-import print1 from './src/js/print1';
-
+import $ from 'jquery'
+import print from './src/js/print';
+// eslint-disable-next-line
+const a = () => import(/* webpackChunkName: "print1" */ './src/js/print1')
+// eslint-disable-next-line
+console.log($)
 if (module.hot) {
   module.hot.accept('./src/js/print.js', () => {
     print();
-  });
-  module.hot.accept('./src/js/print1.js', () => {
-    print1();
   });
 }
