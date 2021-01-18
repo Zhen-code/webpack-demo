@@ -5,3 +5,8 @@
                  allowImportExportEverywhere: true,
                  ecmaVersion: 8
 }
+#eslint支持识别浏览器
+"env":{
+  "browser": true,
+  node: true
+}
